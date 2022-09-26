@@ -13,7 +13,6 @@ interface AppLinkProps extends LinkProps {
     theme?: AppLinkTheme;
 }
 
-
 export const AppLink: FC<AppLinkProps> = (props) => {
     const {
         to,
@@ -30,5 +29,5 @@ export const AppLink: FC<AppLinkProps> = (props) => {
         >
             {children}
         </Link>
-    )
-}
+    );
+};
